@@ -34,7 +34,7 @@ int main()
 
 /*
 	arr[7]= 1 2 3 3 5 5 5 
-	indeces:0 1 2 3 4 5 6
+	indices:0 1 2 3 4 5 6
 	
 	x=5
 	result=4
