@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int LowerBound(int arr[],int n,int x)
+int UpperBound(int arr[],int n,int x)
 {
 	int low=0,high=n-1,ans=n;
 	while(low<=high)
@@ -24,7 +24,7 @@ int main()
 		cin>>arr[i];
 	cin>>x;
 	
-	int result=LowerBound(arr,n,x);
+	int result=UpperBound(arr,n,x);
 	cout<<(result-1);
 	
 	//Method-2 using in-built function
